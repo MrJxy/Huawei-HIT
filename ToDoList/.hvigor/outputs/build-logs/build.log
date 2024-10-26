@@ -1,0 +1,1405 @@
+[2024-10-26T23:21:05.397] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-10-26T23:21:06.060] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-10-26T23:21:06.086] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:21:08.401] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-10-26T23:21:08.706] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-10-26T23:21:08.716] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-10-26T23:21:08.725] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-10-26T23:21:08.734] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-10-26T23:21:08.745] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-10-26T23:21:08.799] [DEBUG] debug-file - Sdk init in 79 ms 
+[2024-10-26T23:21:08.840] [DEBUG] debug-file - Project task initialization takes 38 ms 
+[2024-10-26T23:21:08.852] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:21:08.874] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-10-26T23:21:08.887] [DEBUG] debug-file - Module entry task initialization takes 9 ms 
+[2024-10-26T23:21:08.892] [DEBUG] debug-file - project has submodules:entry
+[2024-10-26T23:21:08.932] [DEBUG] debug-file - Configuration task cost before running: 2 s 895 ms 
+[2024-10-26T23:21:08.936] [DEBUG] debug-file - Executing task :entry:clean
+[2024-10-26T23:21:08.940] [DEBUG] debug-file - entry : clean cost memory 0.243865966796875
+[2024-10-26T23:21:08.961] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:21:05.400] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2024-10-26T23:21:06.062] [DEBUG] debug-file - Since current hvigor version 5.8.9 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-10-26T23:21:08.990] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-10-26T23:21:08.402] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-10-26T23:21:08.706] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-10-26T23:21:08.719] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-10-26T23:21:08.840] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:21:08.858] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-10-26T23:21:08.874] [DEBUG] debug-file - Target 'default' config: {}
+[2024-10-26T23:21:08.888] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:21:08.895] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-10-26T23:21:08.936] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-10-26T23:21:08.940] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 904 ms 
+[2024-10-26T23:21:08.970] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  analyze: 'normal'
+}
+[2024-10-26T23:21:05.403] [DEBUG] debug-file - env: daemon=false
+[2024-10-26T23:21:06.063] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-10-26T23:21:08.996] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-10-26T23:21:08.707] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-10-26T23:21:08.858] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-10-26T23:21:08.875] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-10-26T23:21:08.908] [DEBUG] debug-file - load to the disk finished
+[2024-10-26T23:21:08.942] [INFO] debug-file - Finished :entry:clean... after 5 ms 
+[2024-10-26T23:21:08.985] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-10-26T23:21:05.403] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-10-26T23:21:08.999] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-10-26T23:21:08.707] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-10-26T23:21:08.875] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-10-26T23:21:08.914] [DEBUG] debug-file - Module ToDoList Collected Dependency: 
+[2024-10-26T23:21:08.943] [DEBUG] debug-file - Executing task ::clean
+[2024-10-26T23:21:08.985] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-10-26T23:21:08.999] [DEBUG] debug-file - Clear worker 0.
+[2024-10-26T23:21:08.875] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:21:08.914] [DEBUG] debug-file - Module ToDoList's total dependency: 0
+[2024-10-26T23:21:08.943] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-10-26T23:21:08.919] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-10-26T23:21:08.943] [DEBUG] debug-file - ToDoList : clean cost memory 0.03108978271484375
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-10-26T23:21:08.919] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-10-26T23:21:08.944] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 907 ms 
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-10-26T23:21:08.927] [DEBUG] debug-file - Configuration phase cost:2 s 856 ms 
+[2024-10-26T23:21:08.944] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Clear worker 1.
+[2024-10-26T23:21:08.944] [DEBUG] debug-file - Executing task :entry:init
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Worker 1 has been cleared.
+[2024-10-26T23:21:08.944] [DEBUG] debug-file - entry : init cost memory 0.01010894775390625
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-10-26T23:21:08.944] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 908 ms 
+[2024-10-26T23:21:09.000] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-10-26T23:21:08.945] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-10-26T23:21:09.001] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-10-26T23:21:08.945] [DEBUG] debug-file - Executing task ::init
+[2024-10-26T23:21:09.010] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-10-26T23:21:08.945] [DEBUG] debug-file - ToDoList : init cost memory 0.00888824462890625
+[2024-10-26T23:21:09.011] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-10-26T23:21:08.945] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 908 ms 
+[2024-10-26T23:21:09.012] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-10-26T23:21:08.945] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-10-26T23:22:58.946] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-10-26T23:22:59.152] [DEBUG] debug-file - env: daemon=true
+[2024-10-26T23:22:58.948] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2024-10-26T23:23:00.042] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ]
+}
+[2024-10-26T23:23:00.025] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2024-10-26T23:23:00.091] [DEBUG] debug-file - java daemon started at port 45050 pid 9680
+[2024-10-26T23:23:00.128] [DEBUG] debug-file - session manager: set active socket. socketId=1x7HY6K9HEWC2agEAAAB
+[2024-10-26T23:23:01.138] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:01.159] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-10-26T23:23:01.162] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-10-26T23:23:01.174] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:23:02.930] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:23:02.930] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:23:03.232] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-10-26T23:23:03.232] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-10-26T23:23:03.233] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-10-26T23:23:03.233] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-10-26T23:23:03.237] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-10-26T23:23:03.243] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-10-26T23:23:03.247] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-10-26T23:23:03.253] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-10-26T23:23:03.307] [DEBUG] debug-file - Sdk init in 67 ms 
+[2024-10-26T23:23:03.330] [DEBUG] debug-file - Project task initialization takes 20 ms 
+[2024-10-26T23:23:03.330] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:23:03.335] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:23:03.352] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:23:03.352] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:23:03.368] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-10-26T23:23:03.368] [DEBUG] debug-file - Target 'default' config: {}
+[2024-10-26T23:23:03.369] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-10-26T23:23:03.369] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-10-26T23:23:03.369] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:23:03.379] [DEBUG] debug-file - Module entry task initialization takes 7 ms 
+[2024-10-26T23:23:03.379] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:23:03.522] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 139 ms 
+[2024-10-26T23:23:03.523] [DEBUG] debug-file - project has submodules:entry
+[2024-10-26T23:23:03.525] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-10-26T23:23:03.541] [DEBUG] debug-file - load to the disk finished
+[2024-10-26T23:23:03.548] [DEBUG] debug-file - Module ToDoList Collected Dependency: 
+[2024-10-26T23:23:03.548] [DEBUG] debug-file - Module ToDoList's total dependency: 0
+[2024-10-26T23:23:03.552] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-10-26T23:23:03.552] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-10-26T23:23:03.559] [DEBUG] debug-file - Configuration phase cost:2 s 392 ms 
+[2024-10-26T23:23:03.563] [DEBUG] debug-file - Configuration task cost before running: 2 s 421 ms 
+[2024-10-26T23:23:03.564] [DEBUG] debug-file - Executing task :entry:init
+[2024-10-26T23:23:03.564] [DEBUG] debug-file - entry : init cost memory 0.01554107666015625
+[2024-10-26T23:23:03.564] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 423 ms 
+[2024-10-26T23:23:03.565] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-10-26T23:23:03.565] [DEBUG] debug-file - Executing task ::init
+[2024-10-26T23:23:03.565] [DEBUG] debug-file - ToDoList : init cost memory 0.0127716064453125
+[2024-10-26T23:23:03.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 424 ms 
+[2024-10-26T23:23:03.566] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-10-26T23:23:03.580] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:23:03.591] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:23:03.591] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:23:03.820] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-10-26T23:23:03.820] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-10-26T23:23:03.822] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-10-26T23:23:03.825] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-10-26T23:23:03.827] [DEBUG] debug-file - Cleanup worker 0.
+[2024-10-26T23:23:03.828] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2024-10-26T23:23:03.828] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-10-26T23:23:03.828] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-10-26T23:23:03.828] [DEBUG] debug-file - Cleanup worker 1.
+[2024-10-26T23:23:03.828] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2024-10-26T23:23:03.829] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-10-26T23:23:03.830] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-10-26T23:23:03.832] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-10-26T23:23:03.840] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:03.840] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:03.840] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-10-26T23:23:03.841] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-10-26T23:23:10.141] [DEBUG] debug-file - session manager: set active socket. socketId=pPIgeBpY2HH2hFFUAAAD
+[2024-10-26T23:23:10.172] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:10.197] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-10-26T23:23:10.198] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2024-10-26T23:23:10.211] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:23:10.217] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:23:10.217] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:23:10.223] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-10-26T23:23:10.224] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-10-26T23:23:10.224] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-10-26T23:23:10.224] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-10-26T23:23:10.227] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-10-26T23:23:10.242] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-10-26T23:23:10.267] [DEBUG] debug-file - Sdk init in 37 ms 
+[2024-10-26T23:23:10.288] [DEBUG] debug-file - Project task initialization takes 20 ms 
+[2024-10-26T23:23:10.288] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:23:10.295] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:23:10.300] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:23:10.300] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:23:10.305] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-10-26T23:23:10.305] [DEBUG] debug-file - Target 'default' config: {}
+[2024-10-26T23:23:10.305] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-10-26T23:23:10.305] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-10-26T23:23:10.305] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:23:10.307] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2024-10-26T23:23:10.307] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:23:10.453] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 145 ms 
+[2024-10-26T23:23:10.455] [DEBUG] debug-file - project has submodules:entry
+[2024-10-26T23:23:10.457] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-10-26T23:23:10.472] [DEBUG] debug-file - load to the disk finished
+[2024-10-26T23:23:10.473] [DEBUG] debug-file - Module ToDoList Collected Dependency: 
+[2024-10-26T23:23:10.474] [DEBUG] debug-file - Module ToDoList's total dependency: 0
+[2024-10-26T23:23:10.475] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-10-26T23:23:10.475] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-10-26T23:23:10.486] [DEBUG] debug-file - Configuration phase cost:283 ms 
+[2024-10-26T23:23:10.494] [DEBUG] debug-file - Configuration task cost before running: 318 ms 
+[2024-10-26T23:23:10.506] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.508] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.508] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.526] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-10-26T23:23:10.920] [DEBUG] debug-file - current product is not Atomic service.
+[2024-10-26T23:23:10.920] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2024-10-26T23:23:10.920] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node'
+  }
+]
+[2024-10-26T23:23:10.921] [DEBUG] debug-file - entry : default@PreBuild cost memory 1.5011444091796875
+[2024-10-26T23:23:10.921] [DEBUG] debug-file - runTaskFromQueue task cost before running: 745 ms 
+[2024-10-26T23:23:10.923] [INFO] debug-file - Finished :entry:default@PreBuild... after 396 ms 
+[2024-10-26T23:23:10.927] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.927] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.927] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.930] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-10-26T23:23:10.935] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.3703155517578125
+[2024-10-26T23:23:10.935] [DEBUG] debug-file - runTaskFromQueue task cost before running: 759 ms 
+[2024-10-26T23:23:10.936] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 5 ms 
+[2024-10-26T23:23:10.938] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.938] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.938] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.939] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-10-26T23:23:10.939] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.013092041015625
+[2024-10-26T23:23:10.939] [DEBUG] debug-file - runTaskFromQueue task cost before running: 763 ms 
+[2024-10-26T23:23:10.939] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-10-26T23:23:10.942] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.942] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.942] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.944] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-10-26T23:23:10.945] [DEBUG] debug-file - Change app api release type with 'Release'
+[2024-10-26T23:23:10.946] [DEBUG] debug-file - Change app compile API version with '5.0.0.71'
+[2024-10-26T23:23:10.946] [DEBUG] debug-file - Change app target API version with '50000012'
+[2024-10-26T23:23:10.946] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2024-10-26T23:23:10.946] [DEBUG] debug-file - Use cli appEnvironment
+[2024-10-26T23:23:10.950] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.15093994140625
+[2024-10-26T23:23:10.950] [DEBUG] debug-file - runTaskFromQueue task cost before running: 774 ms 
+[2024-10-26T23:23:10.950] [INFO] debug-file - Finished :entry:default@MergeProfile... after 7 ms 
+[2024-10-26T23:23:10.954] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.954] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.954] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.955] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-10-26T23:23:10.960] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.08760833740234375
+[2024-10-26T23:23:10.960] [DEBUG] debug-file - runTaskFromQueue task cost before running: 784 ms 
+[2024-10-26T23:23:10.961] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 5 ms 
+[2024-10-26T23:23:10.964] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.964] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.964] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.965] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-10-26T23:23:10.965] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01322174072265625
+[2024-10-26T23:23:10.965] [DEBUG] debug-file - runTaskFromQueue task cost before running: 789 ms 
+[2024-10-26T23:23:10.966] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-10-26T23:23:10.968] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.968] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.968] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.982] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-10-26T23:23:10.983] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02147674560546875
+[2024-10-26T23:23:10.983] [DEBUG] debug-file - runTaskFromQueue task cost before running: 807 ms 
+[2024-10-26T23:23:10.983] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-10-26T23:23:10.986] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.986] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.986] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.988] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-10-26T23:23:10.989] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.05017852783203125
+[2024-10-26T23:23:10.989] [DEBUG] debug-file - runTaskFromQueue task cost before running: 813 ms 
+[2024-10-26T23:23:10.990] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2024-10-26T23:23:10.993] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.993] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.993] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.994] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-10-26T23:23:10.994] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01446533203125
+[2024-10-26T23:23:10.994] [DEBUG] debug-file - runTaskFromQueue task cost before running: 818 ms 
+[2024-10-26T23:23:10.995] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-10-26T23:23:10.997] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.997] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:10.997] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:10.998] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-10-26T23:23:11.001] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: {
+      bundleName: 'com.huawei.todolist',
+      bundleType: 'app',
+      version: [Object]
+    },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2024-10-26T23:23:11.003] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.36669921875
+[2024-10-26T23:23:11.003] [DEBUG] debug-file - runTaskFromQueue task cost before running: 827 ms 
+[2024-10-26T23:23:11.004] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 5 ms 
+[2024-10-26T23:23:11.006] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.007] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.007] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.009] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-10-26T23:23:11.010] [DEBUG] debug-file - [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node\\node.exe',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '12',
+  '--target-api-sub-version',
+  'beta1'
+]
+[2024-10-26T23:23:11.539] [DEBUG] debug-file - 12.0.2.0
+[2024-10-26T23:23:11.541] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 1.8447341918945312
+[2024-10-26T23:23:11.542] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 365 ms 
+[2024-10-26T23:23:11.542] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 534 ms 
+[2024-10-26T23:23:11.545] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.545] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.546] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.547] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-10-26T23:23:11.549] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.0393218994140625
+[2024-10-26T23:23:11.550] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 373 ms 
+[2024-10-26T23:23:11.551] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 3 ms 
+[2024-10-26T23:23:11.554] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.554] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.555] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.556] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-10-26T23:23:11.562] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.34111785888671875
+[2024-10-26T23:23:11.562] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 386 ms 
+[2024-10-26T23:23:11.564] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 6 ms 
+[2024-10-26T23:23:11.566] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.566] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.566] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.567] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-10-26T23:23:11.569] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0402984619140625
+[2024-10-26T23:23:11.570] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 393 ms 
+[2024-10-26T23:23:11.570] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 3 ms 
+[2024-10-26T23:23:11.573] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.573] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.573] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.574] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2024-10-26T23:23:11.578] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-10-26T23:23:11.582] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.21077728271484375
+[2024-10-26T23:23:11.583] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 407 ms 
+[2024-10-26T23:23:11.585] [INFO] debug-file - Finished :entry:default@ProcessResource... after 6 ms 
+[2024-10-26T23:23:11.588] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.588] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.588] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.593] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-10-26T23:23:11.605] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5047531127929688
+[2024-10-26T23:23:11.605] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 429 ms 
+[2024-10-26T23:23:11.609] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 13 ms 
+[2024-10-26T23:23:11.617] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.618] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.618] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.631] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-10-26T23:23:11.648] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2024-10-26T23:23:11.652] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2024-10-26T23:23:11.652] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:11.653] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2024-10-26T23:23:11.655] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[6].
+[2024-10-26T23:23:11.656] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
+[2024-10-26T23:23:11.656] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.634857177734375
+[2024-10-26T23:23:11.661] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.661] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:11.661] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:11.663] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2024-10-26T23:23:11.668] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-10-26T23:23:11.739] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2024-10-26T23:23:11.743] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 213286912,
+  heapTotal: 149663744,
+  heapUsed: 122934160,
+  external: 3289052,
+  arrayBuffers: 184871
+} os memoryUsage :9.723846435546875
+[2024-10-26T23:23:12.092] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-10-26T23:23:12.100] [DEBUG] debug-file - entry : default@CompileResource cost memory -3.0372085571289062
+[2024-10-26T23:23:12.100] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 924 ms 
+[2024-10-26T23:23:12.101] [INFO] debug-file - Finished :entry:default@CompileResource... after 433 ms 
+[2024-10-26T23:23:12.104] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:12.104] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:12.105] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:12.108] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-10-26T23:23:12.124] [DEBUG] debug-file - build config:
+[2024-10-26T23:23:12.124] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.huawei.todolist',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'bb001b5aefb722b17adb583421af4822',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '856b2dc6d8d8f9a95d0b237700df9991',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    },
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    },
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList': {
+      moduleName: 'ToDoList',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    }
+  },
+  pkgJsonFileHash: 'eeb4217c8e63b629f072947c506a2c11',
+  allModulePaths: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-10-26T23:23:12.125] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2024-10-26T23:23:12.127] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2024-10-26T23:23:12.130] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2024-10-26T23:23:12.130] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.131] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2024-10-26T23:23:12.131] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.132] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.132] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.133] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.133] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.134] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-10-26T23:23:12.138] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[0].
+[2024-10-26T23:23:12.138] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2024-10-26T23:23:12.139] [DEBUG] debug-file - CopyResources startTime: 86108860450500
+[2024-10-26T23:23:12.139] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
+[2024-10-26T23:23:12.142] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
+[2024-10-26T23:23:12.142] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:12.142] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2024-10-26T23:23:12.143] [DEBUG] debug-file - Create  resident worker with id: 5.
+[2024-10-26T23:23:12.146] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[5].
+[2024-10-26T23:23:12.146] [DEBUG] debug-file - default@CompileArkTS work[2] is dispatched.
+[2024-10-26T23:23:12.147] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.5397415161132812
+[2024-10-26T23:23:12.153] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:12.153] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:12.153] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:12.163] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-10-26T23:23:12.167] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.151214599609375
+[2024-10-26T23:23:12.168] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 991 ms 
+[2024-10-26T23:23:12.168] [INFO] debug-file - Finished :entry:default@BuildJS... after 6 ms 
+[2024-10-26T23:23:13.398] [DEBUG] debug-file - worker[6] has one work done.
+[2024-10-26T23:23:13.398] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2024-10-26T23:23:13.399] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:23:13.400] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 1 s 768 ms 
+[2024-10-26T23:23:13.406] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:13.406] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:13.406] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:13.410] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-10-26T23:23:13.412] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
+[2024-10-26T23:23:13.413] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
+[2024-10-26T23:23:13.413] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:13.413] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[6].
+[2024-10-26T23:23:13.413] [DEBUG] debug-file - default@DoNativeStrip work[3] is dispatched.
+[2024-10-26T23:23:13.414] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.1570281982421875
+[2024-10-26T23:23:13.462] [DEBUG] debug-file - worker[6] has one work done.
+[2024-10-26T23:23:13.462] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
+[2024-10-26T23:23:13.462] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:23:13.463] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 52 ms 
+[2024-10-26T23:23:13.467] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:13.468] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:13.468] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:13.473] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-10-26T23:23:13.474] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
+[2024-10-26T23:23:13.476] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
+[2024-10-26T23:23:13.476] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:13.477] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[6].
+[2024-10-26T23:23:13.477] [DEBUG] debug-file - default@CacheNativeLibs work[4] is dispatched.
+[2024-10-26T23:23:13.477] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.1412200927734375
+[2024-10-26T23:23:13.622] [DEBUG] debug-file - worker[5] has one work done.
+[2024-10-26T23:23:13.624] [DEBUG] debug-file - CopyResources is end, endTime: 86110345246500
+[2024-10-26T23:23:13.626] [DEBUG] debug-file - default@CompileArkTS work[2] done.
+[2024-10-26T23:23:13.628] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-10-26T23:23:14.945] [DEBUG] debug-file - worker[6] has one work done.
+[2024-10-26T23:23:14.945] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
+[2024-10-26T23:23:14.945] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:23:14.946] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 1 s 473 ms 
+[2024-10-26T23:23:24.328] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: C:/Users/jiang/Downloads/ToDoList/ToDoList/entry/src/main/ets/pages/ToDoListPage.ets:43:9
+ Property 'content' is private and can not be initialized through the component constructor.[39m
+
+[2024-10-26T23:23:24.330] [DEBUG] debug-file - Ark compile task finished.finished time is 86121051123000
+[2024-10-26T23:23:24.331] [DEBUG] debug-file - worker[0] has one work done.
+[2024-10-26T23:23:24.343] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2024-10-26T23:23:24.344] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2024-10-26T23:23:24.346] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 12 s 235 ms 
+[2024-10-26T23:23:24.348] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:24.349] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:24.349] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:24.350] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-10-26T23:23:24.353] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.05344390869140625
+[2024-10-26T23:23:24.353] [DEBUG] debug-file - runTaskFromQueue task cost before running: 14 s 177 ms 
+[2024-10-26T23:23:24.353] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 4 ms 
+[2024-10-26T23:23:24.357] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:24.357] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:24.357] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:24.364] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-10-26T23:23:24.374] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-10-26T23:23:24.376] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2024-10-26T23:23:24.378] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2024-10-26T23:23:24.378] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:23:24.378] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[6].
+[2024-10-26T23:23:24.378] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
+[2024-10-26T23:23:24.384] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.58734130859375
+[2024-10-26T23:23:24.404] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 740200448,
+  heapTotal: 101703680,
+  heapUsed: 76442472,
+  external: 4286705,
+  arrayBuffers: 314339
+} os memoryUsage :10.229358673095703
+[2024-10-26T23:23:25.433] [DEBUG] debug-file - worker[6] has one work done.
+[2024-10-26T23:23:25.434] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2024-10-26T23:23:25.434] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:23:25.437] [INFO] debug-file - Finished :entry:default@PackageHap... after 1 s 70 ms 
+[2024-10-26T23:23:25.440] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:25.440] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:23:25.440] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:23:25.443] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-10-26T23:23:27.264] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"verify profile success"}
+[2024-10-26T23:23:27.280] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2024-10-26T23:23:27.427] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - certificate in profile: 蒋骁尧(1053591096451420353)\,Development
+
+[2024-10-26T23:23:27.475] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Start to sign code.
+
+[2024-10-26T23:23:27.484] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - profile type is: debug
+
+[2024-10-26T23:23:27.510] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p12 is exist. Try to load it with given passwd
+
+[2024-10-26T23:23:27.779] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Create a sign info successfully.
+
+[2024-10-26T23:23:27.807] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - No native libs.
+
+[2024-10-26T23:23:27.812] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Sign successfully.
+
+[2024-10-26T23:23:27.826] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Add sign data in sign info list success.
+
+[2024-10-26T23:23:27.838] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Generate signing block success, begin write it to output file
+
+[2024-10-26T23:23:27.839] [DEBUG] debug-file - on stdout: 10-26 23:23:27 INFO  - Sign Hap success!
+
+[2024-10-26T23:23:27.840] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"sign app success"}
+[2024-10-26T23:23:27.841] [DEBUG] debug-file - entry : default@SignHap cost memory -32.189361572265625
+[2024-10-26T23:23:27.841] [DEBUG] debug-file - runTaskFromQueue task cost before running: 17 s 665 ms 
+[2024-10-26T23:23:27.844] [INFO] debug-file - Finished :entry:default@SignHap... after 2 s 398 ms 
+[2024-10-26T23:23:27.847] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-10-26T23:23:27.847] [DEBUG] debug-file - entry : assembleHap cost memory 0.0126953125
+[2024-10-26T23:23:27.847] [DEBUG] debug-file - runTaskFromQueue task cost before running: 17 s 671 ms 
+[2024-10-26T23:23:27.848] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-10-26T23:23:27.856] [DEBUG] debug-file - BUILD SUCCESSFUL in 17 s 680 ms 
+[2024-10-26T23:23:27.857] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\AppScope\app.json5 cache by regenerate.
+[2024-10-26T23:23:27.859] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\module.json5 cache by regenerate.
+[2024-10-26T23:23:27.859] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.860] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.860] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2024-10-26T23:23:27.860] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigor\hvigor-config.json5 cache by regenerate.
+[2024-10-26T23:23:27.860] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\oh-package.json5 cache by regenerate.
+[2024-10-26T23:23:27.861] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:5 ms .
+[2024-10-26T23:23:27.861] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\module.json5 cache by regenerate.
+[2024-10-26T23:23:27.862] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2024-10-26T23:23:27.863] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:2 ms .
+[2024-10-26T23:23:27.863] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\AppScope\app.json5 cache by regenerate.
+[2024-10-26T23:23:27.863] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.864] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\module.json5 cache by regenerate.
+[2024-10-26T23:23:27.864] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2024-10-26T23:23:27.864] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2024-10-26T23:23:27.864] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\AppScope\app.json5 cache by regenerate.
+[2024-10-26T23:23:27.865] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.865] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2024-10-26T23:23:27.866] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:2 ms .
+[2024-10-26T23:23:27.866] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-10-26T23:23:27.866] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-10-26T23:23:27.867] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-10-26T23:23:27.867] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-10-26T23:23:27.867] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\AppScope\app.json5 cache by regenerate.
+[2024-10-26T23:23:27.867] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\module.json5 cache by regenerate.
+[2024-10-26T23:23:27.868] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.868] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\pack.info cache.
+[2024-10-26T23:23:27.869] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2024-10-26T23:23:27.869] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.869] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2024-10-26T23:23:27.869] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2024-10-26T23:23:27.870] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-10-26T23:23:27.870] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2024-10-26T23:23:27.871] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-10-26T23:23:27.872] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:3 ms .
+[2024-10-26T23:23:27.872] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\oh-package.json5 cache by regenerate.
+[2024-10-26T23:23:27.873] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\oh-package.json5 cache by regenerate.
+[2024-10-26T23:23:27.873] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\module.json5 cache by regenerate.
+[2024-10-26T23:23:27.873] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2024-10-26T23:23:27.873] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2024-10-26T23:23:27.874] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2024-10-26T23:23:27.874] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2024-10-26T23:23:27.874] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2024-10-26T23:23:27.874] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2024-10-26T23:23:27.877] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2024-10-26T23:23:27.877] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default\loader.json cache.
+[2024-10-26T23:23:27.877] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:3 ms .
+[2024-10-26T23:23:27.878] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.878] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build-profile.json5 cache by regenerate.
+[2024-10-26T23:23:27.879] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\libs\default cache.
+[2024-10-26T23:23:27.879] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:2 ms .
+[2024-10-26T23:23:27.880] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\resources cache by regenerate.
+[2024-10-26T23:23:27.883] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\AppScope\resources cache by regenerate.
+[2024-10-26T23:23:27.884] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.884] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2024-10-26T23:23:27.884] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default cache.
+[2024-10-26T23:23:27.887] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2024-10-26T23:23:27.887] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\r\default cache.
+[2024-10-26T23:23:27.887] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:9 ms .
+[2024-10-26T23:23:27.889] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-10-26T23:23:27.890] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-10-26T23:23:27.890] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.890] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-10-26T23:23:27.890] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\ets cache by regenerate.
+[2024-10-26T23:23:27.892] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-10-26T23:23:27.892] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-10-26T23:23:27.894] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:7 ms .
+[2024-10-26T23:23:27.895] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-10-26T23:23:27.895] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-10-26T23:23:27.896] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.896] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-10-26T23:23:27.896] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-10-26T23:23:27.896] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:3 ms .
+[2024-10-26T23:23:27.897] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\libs\default cache by regenerate.
+[2024-10-26T23:23:27.897] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2024-10-26T23:23:27.897] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2024-10-26T23:23:27.897] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\libs\default cache by regenerate.
+[2024-10-26T23:23:27.898] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-10-26T23:23:27.898] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2024-10-26T23:23:27.898] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2024-10-26T23:23:27.898] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.899] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\package\default\module.json cache.
+[2024-10-26T23:23:27.899] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2024-10-26T23:23:27.900] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-10-26T23:23:27.900] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:23:27.900] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-10-26T23:23:27.902] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-10-26T23:23:27.902] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-10-26T23:23:27.902] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2024-10-26T23:23:27.903] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-10-26T23:23:27.903] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-10-26T23:23:27.903] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-10-26T23:23:27.904] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:5 ms .
+[2024-10-26T23:23:27.904] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.cer cache by regenerate.
+[2024-10-26T23:23:27.904] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p7b cache by regenerate.
+[2024-10-26T23:23:27.904] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p12 cache by regenerate.
+[2024-10-26T23:23:27.905] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2024-10-26T23:23:27.905] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-10-26T23:23:27.905] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:2 ms .
+[2024-10-26T23:23:27.947] [DEBUG] debug-file - Cleanup worker 5.
+[2024-10-26T23:23:27.947] [DEBUG] debug-file - Worker 5 has been cleaned up.
+[2024-10-26T23:23:27.947] [DEBUG] debug-file - Current idle worker size: 2.
+[2024-10-26T23:23:27.947] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-10-26T23:23:27.948] [DEBUG] debug-file - Cleanup worker 6.
+[2024-10-26T23:23:27.948] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2024-10-26T23:23:27.948] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-10-26T23:23:27.948] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-10-26T23:23:27.955] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-10-26T23:23:27.958] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2024-10-26T23:23:27.982] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:23:27.982] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:23:27.986] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:27.987] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:23:28.095] [DEBUG] debug-file - worker[5] exits with exit code 1.
+[2024-10-26T23:23:28.100] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2024-10-26T23:28:27.735] [DEBUG] debug-file - session manager: set active socket. socketId=P7d62QoZ8ZiQBndMAAAF
+[2024-10-26T23:28:27.784] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:28:27.832] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-10-26T23:28:27.850] [DEBUG] debug-file - Cache service initialization finished in 18 ms 
+[2024-10-26T23:28:27.876] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:28:27.916] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:28:27.916] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:28:27.932] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-10-26T23:28:27.932] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-10-26T23:28:27.933] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-10-26T23:28:27.933] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-10-26T23:28:27.936] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-10-26T23:28:27.968] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-10-26T23:28:28.051] [DEBUG] debug-file - Sdk init in 111 ms 
+[2024-10-26T23:28:28.097] [DEBUG] debug-file - Project task initialization takes 42 ms 
+[2024-10-26T23:28:28.098] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\hvigorfile.ts
+[2024-10-26T23:28:28.110] [DEBUG] debug-file - hvigorfile, resolving C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:28:28.115] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-10-26T23:28:28.115] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-10-26T23:28:28.132] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-10-26T23:28:28.132] [DEBUG] debug-file - Target 'default' config: {}
+[2024-10-26T23:28:28.134] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-10-26T23:28:28.134] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-10-26T23:28:28.134] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-10-26T23:28:28.143] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-10-26T23:28:28.144] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\hvigorfile.ts
+[2024-10-26T23:28:28.371] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 224 ms 
+[2024-10-26T23:28:28.373] [DEBUG] debug-file - project has submodules:entry
+[2024-10-26T23:28:28.376] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-10-26T23:28:28.391] [DEBUG] debug-file - load to the disk finished
+[2024-10-26T23:28:28.393] [DEBUG] debug-file - Module ToDoList Collected Dependency: 
+[2024-10-26T23:28:28.394] [DEBUG] debug-file - Module ToDoList's total dependency: 0
+[2024-10-26T23:28:28.395] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-10-26T23:28:28.395] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-10-26T23:28:28.398] [DEBUG] debug-file - Configuration phase cost:534 ms 
+[2024-10-26T23:28:28.400] [DEBUG] debug-file - Configuration task cost before running: 609 ms 
+[2024-10-26T23:28:28.404] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.404] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.404] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.418] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-10-26T23:28:28.438] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 13 ms .
+[2024-10-26T23:28:28.439] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2526092529296875
+[2024-10-26T23:28:28.441] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2024-10-26T23:28:28.445] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.445] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.445] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.449] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-10-26T23:28:28.454] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 4 ms .
+[2024-10-26T23:28:28.455] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.15276336669921875
+[2024-10-26T23:28:28.456] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2024-10-26T23:28:28.459] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.459] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.459] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.459] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-10-26T23:28:28.460] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01317596435546875
+[2024-10-26T23:28:28.460] [DEBUG] debug-file - runTaskFromQueue task cost before running: 669 ms 
+[2024-10-26T23:28:28.460] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-10-26T23:28:28.463] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.463] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.463] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.464] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-10-26T23:28:28.466] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2024-10-26T23:28:28.466] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.3423004150390625
+[2024-10-26T23:28:28.466] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2024-10-26T23:28:28.469] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.469] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.469] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.472] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-10-26T23:28:28.476] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 3 ms .
+[2024-10-26T23:28:28.476] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.11993408203125
+[2024-10-26T23:28:28.477] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2024-10-26T23:28:28.481] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.481] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.481] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.482] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-10-26T23:28:28.483] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01325225830078125
+[2024-10-26T23:28:28.483] [DEBUG] debug-file - runTaskFromQueue task cost before running: 692 ms 
+[2024-10-26T23:28:28.483] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-10-26T23:28:28.494] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.494] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.494] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.499] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-10-26T23:28:28.500] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.021331787109375
+[2024-10-26T23:28:28.500] [DEBUG] debug-file - runTaskFromQueue task cost before running: 709 ms 
+[2024-10-26T23:28:28.501] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-10-26T23:28:28.508] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.508] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.508] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.525] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-10-26T23:28:28.531] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'C:\Users\jiang\Downloads\ToDoList\ToDoList\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2024-10-26T23:28:28.539] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 12 ms .
+[2024-10-26T23:28:28.539] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory -4.8694610595703125
+[2024-10-26T23:28:28.540] [DEBUG] debug-file - runTaskFromQueue task cost before running: 749 ms 
+[2024-10-26T23:28:28.542] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 16 ms 
+[2024-10-26T23:28:28.546] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.547] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.547] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.549] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-10-26T23:28:28.550] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014007568359375
+[2024-10-26T23:28:28.550] [DEBUG] debug-file - runTaskFromQueue task cost before running: 759 ms 
+[2024-10-26T23:28:28.550] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-10-26T23:28:28.555] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.556] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.556] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.557] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-10-26T23:28:28.562] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 4 ms .
+[2024-10-26T23:28:28.562] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.13568878173828125
+[2024-10-26T23:28:28.564] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2024-10-26T23:28:28.568] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.568] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.568] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.570] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-10-26T23:28:28.571] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 2 ms .
+[2024-10-26T23:28:28.571] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0613861083984375
+[2024-10-26T23:28:28.572] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2024-10-26T23:28:28.575] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.575] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.575] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.579] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-10-26T23:28:28.597] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2024-10-26T23:28:28.598] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 12 ms .
+[2024-10-26T23:28:28.598] [DEBUG] debug-file - entry : default@SyscapTransform cost memory -9.303184509277344
+[2024-10-26T23:28:28.598] [DEBUG] debug-file - runTaskFromQueue task cost before running: 807 ms 
+[2024-10-26T23:28:28.599] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 20 ms 
+[2024-10-26T23:28:28.610] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.611] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.612] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.619] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-10-26T23:28:28.627] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 6 ms .
+[2024-10-26T23:28:28.628] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1595458984375
+[2024-10-26T23:28:28.630] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2024-10-26T23:28:28.634] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.634] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.634] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.635] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-10-26T23:28:28.636] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0543060302734375
+[2024-10-26T23:28:28.637] [DEBUG] debug-file - runTaskFromQueue task cost before running: 846 ms 
+[2024-10-26T23:28:28.637] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2024-10-26T23:28:28.641] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.641] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.641] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.643] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2024-10-26T23:28:28.650] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-10-26T23:28:28.652] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 2 ms .
+[2024-10-26T23:28:28.652] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.12511444091796875
+[2024-10-26T23:28:28.657] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2024-10-26T23:28:28.660] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.661] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.661] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.674] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-10-26T23:28:28.707] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 26 ms .
+[2024-10-26T23:28:28.707] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.46109771728515625
+[2024-10-26T23:28:28.714] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2024-10-26T23:28:28.718] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.719] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.719] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.723] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-10-26T23:28:28.725] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2024-10-26T23:28:28.726] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.0797576904296875
+[2024-10-26T23:28:28.726] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2024-10-26T23:28:28.729] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.729] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.729] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.730] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2024-10-26T23:28:28.734] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-10-26T23:28:28.744] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 9 ms .
+[2024-10-26T23:28:28.744] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.5785064697265625
+[2024-10-26T23:28:28.745] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2024-10-26T23:28:28.748] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.748] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.748] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.750] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-10-26T23:28:28.752] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2024-10-26T23:28:28.752] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.0638275146484375
+[2024-10-26T23:28:28.752] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2024-10-26T23:28:28.757] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.757] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.757] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.761] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-10-26T23:28:28.770] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\ets' has been changed.
+[2024-10-26T23:28:28.770] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 6 ms .
+[2024-10-26T23:28:28.784] [DEBUG] debug-file - build config:
+[2024-10-26T23:28:28.784] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.huawei.todolist',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'bb001b5aefb722b17adb583421af4822',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '856b2dc6d8d8f9a95d0b237700df9991',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    },
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    },
+    'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList': {
+      moduleName: 'ToDoList',
+      modulePkgPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList',
+      belongProjectPath: 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList'
+    }
+  },
+  pkgJsonFileHash: 'eeb4217c8e63b629f072947c506a2c11',
+  allModulePaths: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-10-26T23:28:28.784] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2024-10-26T23:28:28.788] [DEBUG] debug-file - default@CompileArkTS work[6] is submitted.
+[2024-10-26T23:28:28.789] [DEBUG] debug-file - default@CompileArkTS work[6] is pushed to ready queue.
+[2024-10-26T23:28:28.789] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.790] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.791] [DEBUG] debug-file - default@CompileArkTS work[6] has been dispatched to worker[0].
+[2024-10-26T23:28:28.791] [DEBUG] debug-file - default@CompileArkTS work[6] is dispatched.
+[2024-10-26T23:28:28.791] [DEBUG] debug-file - CopyResources startTime: 86425513720800
+[2024-10-26T23:28:28.792] [DEBUG] debug-file - default@CompileArkTS work[7] is submitted.
+[2024-10-26T23:28:28.797] [DEBUG] debug-file - default@CompileArkTS work[7] is pushed to ready queue.
+[2024-10-26T23:28:28.798] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:28:28.799] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2024-10-26T23:28:28.807] [DEBUG] debug-file - default@CompileArkTS work[7] has been dispatched to worker[6].
+[2024-10-26T23:28:28.808] [DEBUG] debug-file - default@CompileArkTS work[7] is dispatched.
+[2024-10-26T23:28:28.809] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.44195556640625
+[2024-10-26T23:28:28.815] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.815] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.816] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.826] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-10-26T23:28:28.833] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.14910125732421875
+[2024-10-26T23:28:28.833] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 42 ms 
+[2024-10-26T23:28:28.833] [INFO] debug-file - Finished :entry:default@BuildJS... after 7 ms 
+[2024-10-26T23:28:28.838] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.838] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:28.838] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:28.842] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-10-26T23:28:28.845] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 2 ms .
+[2024-10-26T23:28:28.845] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.081512451171875
+[2024-10-26T23:28:28.846] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2024-10-26T23:28:31.133] [DEBUG] debug-file - worker[6] has one work done.
+[2024-10-26T23:28:31.134] [DEBUG] debug-file - CopyResources is end, endTime: 86427856161400
+[2024-10-26T23:28:31.137] [DEBUG] debug-file - default@CompileArkTS work[7] done.
+[2024-10-26T23:28:31.247] [DEBUG] debug-file - Ark compile task finished.finished time is 86427969478200
+[2024-10-26T23:28:31.249] [DEBUG] debug-file - worker[0] has one work done.
+[2024-10-26T23:28:31.281] [DEBUG] debug-file - default@CompileArkTS work[6] done.
+[2024-10-26T23:28:31.285] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 2 s 521 ms 
+[2024-10-26T23:28:31.289] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:31.289] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:31.290] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:31.291] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-10-26T23:28:31.295] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2024-10-26T23:28:31.296] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.09893798828125
+[2024-10-26T23:28:31.296] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2024-10-26T23:28:31.300] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:31.300] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:31.301] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:31.311] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-10-26T23:28:31.327] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2024-10-26T23:28:31.328] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 13 ms .
+[2024-10-26T23:28:31.330] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\jiang\\Downloads\\ToDoList\\ToDoList\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-10-26T23:28:31.333] [DEBUG] debug-file - default@PackageHap work[8] is submitted.
+[2024-10-26T23:28:31.334] [DEBUG] debug-file - default@PackageHap work[8] is pushed to ready queue.
+[2024-10-26T23:28:31.334] [DEBUG] debug-file - default@PackageHap work[8] is not dispatched.
+[2024-10-26T23:28:31.336] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.8204345703125
+[2024-10-26T23:28:31.393] [DEBUG] debug-file - default@PackageHap work[8] has been dispatched to worker[0].
+[2024-10-26T23:28:31.440] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.441] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.441] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.441] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.441] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.441] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.442] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-10-26T23:28:31.442] [DEBUG] debug-file - A work dispatched to worker[0] failed because of worker busy.
+[2024-10-26T23:28:31.397] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 534917120,
+  heapTotal: 300826624,
+  heapUsed: 282607512,
+  external: 4406489,
+  arrayBuffers: 439008
+} os memoryUsage :10.15011978149414
+[2024-10-26T23:28:32.707] [DEBUG] debug-file - worker[0] has one work done.
+[2024-10-26T23:28:32.707] [DEBUG] debug-file - default@PackageHap work[8] done.
+[2024-10-26T23:28:32.709] [INFO] debug-file - Finished :entry:default@PackageHap... after 1 s 340 ms 
+[2024-10-26T23:28:32.715] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:32.715] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-10-26T23:28:32.716] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","version":"1.0.0","dependencies":{}} at undefined
+[2024-10-26T23:28:32.722] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-10-26T23:28:32.730] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2024-10-26T23:28:32.731] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 8 ms .
+[2024-10-26T23:28:32.853] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"verify profile success"}
+[2024-10-26T23:28:32.869] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2024-10-26T23:28:32.932] [DEBUG] debug-file - on stdout: 10-26 23:28:32 INFO  - certificate in profile: 蒋骁尧(1053591096451420353)\,Development
+
+[2024-10-26T23:28:32.957] [DEBUG] debug-file - on stdout: 10-26 23:28:32 INFO  - Start to sign code.
+
+[2024-10-26T23:28:32.957] [DEBUG] debug-file - on stdout: 10-26 23:28:32 INFO  - profile type is: debug
+
+[2024-10-26T23:28:32.959] [DEBUG] debug-file - on stdout: 10-26 23:28:32 INFO  - C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p12 is exist. Try to load it with given passwd
+
+[2024-10-26T23:28:33.108] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - Create a sign info successfully.
+
+[2024-10-26T23:28:33.127] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - No native libs.
+
+[2024-10-26T23:28:33.132] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - Sign successfully.
+
+[2024-10-26T23:28:33.141] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - Add sign data in sign info list success.
+
+[2024-10-26T23:28:33.148] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - Generate signing block success, begin write it to output file
+
+[2024-10-26T23:28:33.149] [DEBUG] debug-file - on stdout: 10-26 23:28:33 INFO  - Sign Hap success!
+
+[2024-10-26T23:28:33.150] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"sign app success"}
+[2024-10-26T23:28:33.151] [DEBUG] debug-file - entry : default@SignHap cost memory 1.026031494140625
+[2024-10-26T23:28:33.152] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 361 ms 
+[2024-10-26T23:28:33.153] [INFO] debug-file - Finished :entry:default@SignHap... after 430 ms 
+[2024-10-26T23:28:33.156] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-10-26T23:28:33.156] [DEBUG] debug-file - entry : assembleHap cost memory 0.013671875
+[2024-10-26T23:28:33.156] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 365 ms 
+[2024-10-26T23:28:33.156] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-10-26T23:28:33.167] [DEBUG] debug-file - BUILD SUCCESSFUL in 5 s 376 ms 
+[2024-10-26T23:28:33.168] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2024-10-26T23:28:33.168] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2024-10-26T23:28:33.168] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2024-10-26T23:28:33.168] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2024-10-26T23:28:33.168] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-10-26T23:28:33.169] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-10-26T23:28:33.169] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-10-26T23:28:33.170] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:2 ms .
+[2024-10-26T23:28:33.170] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2024-10-26T23:28:33.170] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2024-10-26T23:28:33.171] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-10-26T23:28:33.171] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2024-10-26T23:28:33.172] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-10-26T23:28:33.172] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:3 ms .
+[2024-10-26T23:28:33.172] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2024-10-26T23:28:33.173] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2024-10-26T23:28:33.173] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2024-10-26T23:28:33.173] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2024-10-26T23:28:33.173] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2024-10-26T23:28:33.173] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2024-10-26T23:28:33.175] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-10-26T23:28:33.176] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-10-26T23:28:33.176] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:28:33.176] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-10-26T23:28:33.177] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\src\main\ets cache from map.
+[2024-10-26T23:28:33.177] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-10-26T23:28:33.177] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-10-26T23:28:33.178] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:6 ms .
+[2024-10-26T23:28:33.180] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-10-26T23:28:33.180] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-10-26T23:28:33.181] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:28:33.181] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-10-26T23:28:33.181] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-10-26T23:28:33.182] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:4 ms .
+[2024-10-26T23:28:33.182] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2024-10-26T23:28:33.182] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2024-10-26T23:28:33.183] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-10-26T23:28:33.184] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-10-26T23:28:33.188] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-10-26T23:28:33.195] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-10-26T23:28:33.196] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-10-26T23:28:33.197] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2024-10-26T23:28:33.198] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-10-26T23:28:33.200] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-10-26T23:28:33.201] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-10-26T23:28:33.202] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:20 ms .
+[2024-10-26T23:28:33.203] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.cer cache by regenerate.
+[2024-10-26T23:28:33.204] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p7b cache by regenerate.
+[2024-10-26T23:28:33.205] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\.ohos\config\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p12 cache by regenerate.
+[2024-10-26T23:28:33.205] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2024-10-26T23:28:33.206] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\jiang\Downloads\ToDoList\ToDoList\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-10-26T23:28:33.206] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:5 ms .
+[2024-10-26T23:28:33.244] [DEBUG] debug-file - Cleanup worker 6.
+[2024-10-26T23:28:33.244] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2024-10-26T23:28:33.244] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-10-26T23:28:33.245] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-10-26T23:28:33.245] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-10-26T23:28:33.246] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2024-10-26T23:28:33.257] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:28:33.257] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-10-26T23:28:33.324] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2024-10-26T23:28:33.328] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-10-26T23:28:33.333] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

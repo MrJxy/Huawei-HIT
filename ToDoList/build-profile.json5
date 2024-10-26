@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\jiang\\.ohos\\config\\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.cer",
+          "storePassword": "0000001BC377F5EF3CBFB47FD9ABD7BCB3673FB7E2EAC702EAAC019E7362468054E13A6571DDD13CEAE0E2",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0E25868611B96FBC2EF2BB750BB7DFD51AA82311548BAA0B69C555647CD531DD4776F3610D32CC",
+          "profile": "C:\\Users\\jiang\\.ohos\\config\\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\jiang\\.ohos\\config\\default_ToDoList_qUXQonlB1rhDu5VVPK7_YmtNFb1KHnnlEn0D_DcBGwo=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
